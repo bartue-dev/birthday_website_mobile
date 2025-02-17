@@ -1,4 +1,3 @@
-import React from 'react'
 import SectionWrapper from './SectionWrapper'
 import "../assets/css/present.css";
 function Present() {
@@ -16,12 +15,12 @@ function Present() {
           <div className="gift-bottom"></div>
           <div id="raffle-red" className="entry raffle raffle-1">
             <div className="no-scale">
-              <span className="ticket-text">Free<br/>Pedicure</span>
+              <span className="ticket-text">Free<br/>Anything!</span>
             </div>
           </div>
           <div id="raffle-red" className="entry raffle raffle-2">
             <div className="no-scale">
-              <span className="ticket-text">Free<br/>Massage</span>
+              <span className="ticket-text">Free<br/>Gala</span>
             </div>
           </div>
           <div id="raffle-red" className="entry raffle raffle-3">
