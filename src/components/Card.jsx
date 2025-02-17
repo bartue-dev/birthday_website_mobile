@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import "../assets/css/card.css";
 import { Link } from 'react-router-dom'; 
 
@@ -36,7 +36,7 @@ function Card() {
       <div id="card" className={`${cardClass}`} onClick={toggleCard}>     
         <div id="card-inside">
           <div className="wrap">
-            <p>Happy Birthday, John Doe!</p>
+            <p>Happy Birthday, Babiii!</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque delectus dolore recusandae eveniet dicta. Corrupti.</p>
             <p>
               I hope you have a very blessed birthday!
@@ -47,7 +47,7 @@ function Card() {
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
-            <p className="signed">Jane Doe</p>
+            <p className="signed">Bartue</p>
           </div>
         </div>
 
