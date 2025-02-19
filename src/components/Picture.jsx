@@ -1,18 +1,15 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { bday2, bday3, bday6, bday7, bday8, picture2, picture3 } from '../assets';
+import { bday2, bday3, bday8, picture2, us } from '../assets';
 import { Link } from 'react-router-dom'; 
 import SectionWrapper from './SectionWrapper';
 // Add your own images by putting them in the assets folder and import them.
 const images = [
  bday2,
  bday3,
- bday6,
- bday7,
  bday8,
  picture2,
- picture3,
-
+ us
 ];
 function Picture() {
   const [loadedImages, setLoadedImages] = useState(0);
