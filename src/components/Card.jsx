@@ -33,21 +33,23 @@ function Card() {
       <motion.div  initial={{ opacity: 0, visibility: "hidden" }}
           animate={{ opacity: 1, visibility: "visible" }}
           transition={{duration: 1.2}}>
-      <div id="card" className={`${cardClass}`} onClick={toggleCard}>     
+      <div id="card" className={`${cardClass} text-sm`} onClick={toggleCard}>     
         <div id="card-inside">
           <div className="wrap">
             <p>Happy Birthday, Babiii!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque delectus dolore recusandae eveniet dicta. Corrupti.</p>
             <p>
-              I hope you have a very blessed birthday!
+              I love you so much babiii. Bisan pirme ta naga awai lately love japon tka. Ikaw lng gid and never ko mangita pa sang iba pa.
             </p>
             <p>
-             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, cum.
+              Hoping na ma enjoy nmo imong birthday and maging special with me. As alwayss naa lng ko dri naga support sa imo until ma achieve nmo imong goals sa life.    
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            2 years gap nata huhu. Sorry if sometimes gina sabayan nako imong pride. Next time ikaw nagid dapat ang madaog satong awai.
             </p>
-            <p className="signed">Bartue</p>
+            <p>
+              I love you so much be healthy gid pirme ug ayaw na sge pa stress sa work. Happy Birthday!
+            </p>
+            <p className="signed"> <span className="text-base">Bartue</span></p>
           </div>
         </div>
 

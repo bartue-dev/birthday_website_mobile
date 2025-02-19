@@ -1,12 +1,15 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { picture, picture1, picture2, picture3 } from '../assets';
+import { bday2, bday3, bday6, bday7, bday8, picture2, picture3 } from '../assets';
 import { Link } from 'react-router-dom'; 
 import SectionWrapper from './SectionWrapper';
 // Add your own images by putting them in the assets folder and import them.
 const images = [
- picture,
- picture1,
+ bday2,
+ bday3,
+ bday6,
+ bday7,
+ bday8,
  picture2,
  picture3,
 
@@ -20,11 +23,13 @@ function Picture() {
   const allImagesLoaded = loadedImages === images.length;
   return (
     <SectionWrapper>
-      <Link to="/card">
-        <p className="absolute text-4xl font-bold text-customBlue inset-0 flex justify-center items-center text-center transform rotate-6 cursor-pointer">
-          Tigulang naka hays HAHAHAHA! :P
-        </p>
-      </Link>
+      {allImagesLoaded && (
+        <Link to="/card">
+          <p className="absolute text-4xl font-bold text-customBlue inset-0 flex justify-center items-center text-center transform rotate-6 cursor-pointer">
+            Tigulang naka hays HAHAHAHA! :P
+          </p>
+        </Link>
+      )}
       {!allImagesLoaded && (
         <div className="absolute inset-0 flex justify-center items-center">
           <p className="text-xl font-medium text-gray-500">Loading images...</p>
